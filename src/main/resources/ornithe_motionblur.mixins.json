@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.mixces.ornithe_motionblur.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "GameRendererMixin",
+    "MinecraftMixin",
+    "PostChainAccessor"
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
